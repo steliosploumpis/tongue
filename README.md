@@ -4,7 +4,7 @@
  <br/>
  <sup>1 </sup>Imperial College London, UK
  <br/>
- <sup>2 </sup> Huawei Techologies co.ltd
+ <sup>2 </sup> Huawei Techologies co. ltd
  <br> 
  <sup>* </sup> Indicates equal contribution
 
@@ -13,7 +13,7 @@
 
 <br/>
 
-<p align="center"><img width="100%" src="figures/first_page_fig.png" /></p>
+<p align="center"><img width="100%" src="figures/teaser_fig_new.pdf" /></p>
 
 <br/>
 
