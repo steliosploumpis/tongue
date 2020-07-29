@@ -13,7 +13,7 @@
 
 <br/>
 
-<p align="center"><img width="100%" src="figures/teaser_fig_new.pdf" /></p>
+<p align="center"><img width="100%" src="figures/teaser_fig_new.png" /></p>
 
 <br/>
 
