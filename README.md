@@ -27,25 +27,20 @@
 
 ## Approach
 
-<p align="center"><img width="100%" src="figures/overview.png" /></p>
+<p align="center"><img width="100%" src="figures/method.png" /></p>
 An illustration of our tongue reconstruction framework during inference.  The embedding network predicts a latent 3D feature ̃ywhich is later transformed to the corresponding parametersptof the synthetic expression PCAUtvia linear projection to theWt,ymatrix. The generator from Section 3 randomly predicts10Kpoints(z∼N(0, I))that belong to the distribution of the tongue surface.This point-cloud is later utilized in the tongue optimization pipe-line described in Section 4.1 which aims at refining the shape of the initialtongue expression.
-
-<p align="center"><img width="50%" src="figures/triangles.png" /></p>
-
-
 
 <br/>
 
 ## TongueGAN
-<p align="center"><img width="70%" src="figures/eyes.png" /></p>
+<p align="center"><img width="90%" src="figures/net_diagram_narrow.png" /></p>
 
-<p align="center"><img width="80%" src="figures/eye_ear.gif" alt="Logo"></p>
 
 <br/>
 
 ## Tongue Reconstruction Results from single images
 
-<p align="center"><img width="70%" src="figures/qual_1.png" /></p>
+<p align="center"><img width="100%" src="figures/qual_fig_new.png" /></p>
 
 <br/>
 
@@ -60,4 +55,7 @@ If you find this work is useful for your research, please cite our [paper](http:
 <br/>
 
 ## Public release Tongue dataset
+
+<p align="center"><img width="60%" src="figures/raw_point_cloud_dataset_2.png" /></p>
+
 
