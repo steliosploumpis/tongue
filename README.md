@@ -17,7 +17,7 @@
 
 <br/>
 
-<p align="center"><img width="65%" src="figures/head.gif" alt="Logo"></p>
+<p align="center"><img width="40%" src="figures/tongue_animate.gif" alt="Logo"></p>
 
 
 
