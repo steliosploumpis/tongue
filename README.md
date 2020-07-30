@@ -34,7 +34,6 @@ An illustration of our tongue reconstruction framework during inference. The emb
 
 ## TongueGAN
 <p align="center"><img width="90%" src="figures/net_diagram_narrow.png" /></p>
-TongueGAN architecture. Symbol \textbf{c} stands for row-wise concatenation along the channel dimension. Symbol $\circ$ stands for element-wise (\ie, Hadamard) product. The Generator inputs are: i) a Gaussian noise sample $\mathbf{z}$ and ii) a label $\mathbf{\tilde{y}}$ corresponding to a particular tongue, from which we want to sample a 3D point. The Discriminator input pairs are: i) $\left(\mathbf{y}, \mathbf{x}\right)$, where $\mathbf{y}$ is a label corresponding to a specific tongue and $\mathbf{x}$ a \textsl{real} 3D point belonging to the aforementioned tongue point-cloud (but sampled as explained in Section \ref{sec:novel_loss}), ii) $\left(\mathbf{\tilde{y}}, G\left(\mathbf{z},\mathbf{\tilde{y}}\right)\right)$, where $\mathbf{\tilde{y}}$ is a label corresponding to a tongue and $G\left(\mathbf{z}, \mathbf{\tilde{y}}\right)$ a generated point belonging to this tongue. The Discriminator is asked to distinguish the real from the fake (\ie, generated) pair.
 
 
 <br/>
