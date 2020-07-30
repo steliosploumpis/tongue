@@ -36,6 +36,9 @@ An illustration of our tongue reconstruction framework during inference. The emb
 <p align="center"><img width="90%" src="figures/net_diagram_narrow.png" /></p>
 
 
+
+
+
 <br/>
 
 ## Tongue Reconstruction Results from single images
