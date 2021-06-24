@@ -1,4 +1,4 @@
-# [3D human tongue reconstruction with adversarial surface generation](https://arxiv.org/abs/1911.08008)
+# [3D human tongue reconstruction from single ''in-the-wild'' images](https://arxiv.org/pdf/2106.12302.pdf)
 
  [Stylianos Ploumpis](https://www.imperial.ac.uk/people/s.ploumpis)<sup> 1,2 * </sup>, [Stylianos Moschoglou](https://www.doc.ic.ac.uk/~sm3515/)<sup> 1,2 * </sup>, Vasileios Triantafyllou <sup> 2</sup>, & [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)<sup> 1,2</sup>
  <br/>
@@ -23,12 +23,12 @@
 
 ## Abstract
 
-3D face reconstruction from a single image is a task that has garnered increased interest in the Computer Vision community, especially due to its broad use in a number of applications such as realistic 3D avatar creation, pose invariant face recognition and face hallucination. Since the introduction of the 3D Morphable Model in the late 90’s, we witnessed an explosion of research aiming at particularly tackling this task. Nevertheless, despite the increasing level of detail in the 3D face reconstructions from single images mainly attributed to deep learning advances, finer and highly deformable components of the face such as the tongue are still absent from all 3D face models in the literature, although being very important for the realness of the 3D avatar representations. In this work we present the first, to the best of our knowledge, method that: a) accurately reconstructs the tongue by utilizing a novel GAN framework which directly models the surface distribution of the tongue from raw data without any preprocessing, and b) seamlessly merges it with the existing state-of-the-art face and head models. Moreover, we make publicly available to the community the first diverse tongue dataset, consisting of 5,200 raw scans of 1,500 individuals varying in gender, age, and ethnicity backgrounds. Finally, as we demonstrate in an extensive series of quantitative as well as qualitative experiments, our model proves to be robust and realistically captures the 3D tongue structure, even in adverse ``in-the-wild'' conditions. 
+3D face reconstruction from a single image is a task that has garnered increased interest in the Computer Vision community, especially due to its broad use in a number of applications such as realistic 3D avatar creation, pose invariant face recognition and face hallucination. Since the introduction of the 3D Morphable Model in the late 90’s, we witnessed an explosion of research aiming at particularly tackling this task. Nevertheless, despite the increasing level of detail in the 3D face reconstructions from single images mainly attributed to deep learning advances, finer and highly deformable components of the face such as the tongue are still absent from all 3D face models in the literature, although being very important for the realness of the 3D avatar representations. In this work we present the first, to the best of our knowledge, end-to-end trainable pipeline that accurately reconstructs the 3D face together with the tongue. Moreover, we make this pipeline robust in ''in-the-wild'' images by introducing a novel GAN method tailored for 3D tongue surface generation. Finally, we make publicly available to the community the first diverse tongue dataset, consisting of 1,800 raw scans of 700 individuals varying in gender, age, and ethnicity backgrounds. As we demonstrate in an extensive series of quantitative as well as qualitative experiments, our model proves to be robust and realistically captures the 3D tongue structure, even in adverse ''in-the-wild'' conditions.  
 
 ## Approach
 
 <p align="center"><img width="100%" src="figures/method.png" /></p>
-An illustration of our tongue reconstruction framework during inference. The embedding network predicts a latent 3D feature which is later transformed to the corresponding parametersptof the synthetic expression PCA via linear projection. The generator randomly predicts 10K points (z∼N(0, I)) that belong to the distribution of the tongue surface. This point-cloud is later utilized in the tongue optimization pipe-line which aims at refining the shape of the initialtongue expression.
+An illustration of our tongue reconstruction framework. First we train the point-cloud AE on its own to get meaningful 3D features (y) of our collected point-cloud tongues. After this is done the rest of the pipeline is trained in an end-to-end fashion. We use as input to the encoder a 2D tongue image from our dataset. The encoder output is then translated through an MLP. The output of the MLP corresponds to the PCA parameters of our rigged head model. We then reconstruct the tongue expression based on the PCA model and these parameters. Finally, the tongue expression is optimised based on the ground-truth 3D tongue point-cloud (which corresponds to the input image). The optimisation is carried out by back-propagation using a number of different 
 
 <br/>
 
@@ -46,7 +46,7 @@ TongueGAN architecture. Symbol c stands for row-wise concatenation along the cha
 <br/>
 
 ## Citation
-If you find this work is useful for your research, please cite our [paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Ploumpis_Combining_3D_Morphable_Models_A_Large_Scale_Face-And-Head_Model_CVPR_2019_paper.html):
+If you find this work is useful for your research, please cite our [paper](https://arxiv.org/pdf/2106.12302.pdf):
 
 ```
 
