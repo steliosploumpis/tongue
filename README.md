@@ -27,13 +27,13 @@
 
 ## Approach
 
-<p align="center"><img width="100%" src="figures/method.png" /></p>
+<p align="center"><img width="100%" src="figures/method_3.1.png" /></p>
 An illustration of our tongue reconstruction framework. First we train the point-cloud AE on its own to get meaningful 3D features (y) of our collected point-cloud tongues. After this is done the rest of the pipeline is trained in an end-to-end fashion. We use as input to the encoder a 2D tongue image from our dataset. The encoder output is then translated through an MLP. The output of the MLP corresponds to the PCA parameters of our rigged head model. We then reconstruct the tongue expression based on the PCA model and these parameters. Finally, the tongue expression is optimised based on the ground-truth 3D tongue point-cloud (which corresponds to the input image). The optimisation is carried out by back-propagation using a number of different 
 
 <br/>
 
 ## TongueGAN
-<p align="center"><img width="90%" src="figures/net_diagram_narrow.png" /></p>
+<p align="center"><img width="90%" src="figures/net_diagram_3.png" /></p>
 TongueGAN architecture. Symbol c stands for row-wise concatenation along the channel dimension. Symbol o stands for element-wise (i.e., Hadamard) product. The Generator inputs are: i) a Gaussian noise sample z and ii) a label ~y corresponding to a particular tongue, from which we want to sample a 3D point. The Discriminator input pairs are: i) (y,x), y is a label corresponding to a specific tongue and x a real 3D point belonging to the aforementioned tongue point-cloud, ii) (~y, G(z,~y)), where ~y is a label corresponding to a tongue and G(z,~y) a generated point belonging to this tongue. The Discriminator is asked to distinguish the real from the fake (i.e., generated) pair.
 
 
@@ -58,6 +58,8 @@ If you find this work is useful for your research, please cite our [paper](https
 ## Public release Tongue dataset
 
 <p align="center"><img width="60%" src="figures/raw_point_cloud_dataset_2.png" /></p>
+
+TBA
 
 <br/>
 
