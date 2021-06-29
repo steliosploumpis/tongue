@@ -1,7 +1,7 @@
-# [3D human tongue reconstruction from single ''in-the-wild'' images](https://arxiv.org/pdf/2106.12302.pdf)
+## [3D human tongue reconstruction from single ''in-the-wild'' images](https://arxiv.org/pdf/2106.12302.pdf)
 [![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/pdf/2106.12302.pdf)
 
- [Stylianos Ploumpis](https://www.imperial.ac.uk/people/s.ploumpis)<sup> 1,2 * </sup>, [Stylianos Moschoglou](https://www.doc.ic.ac.uk/~sm3515/)<sup> 1,2 * </sup>, Vasileios Triantafyllou <sup> 2</sup>, & [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)<sup> 1,2</sup>
+[Stylianos Ploumpis](https://www.imperial.ac.uk/people/s.ploumpis)<sup> 1,2 * </sup>, [Stylianos Moschoglou](https://www.doc.ic.ac.uk/~sm3515/)<sup> 1,2 * </sup>, Vasileios Triantafyllou <sup> 2</sup>, & [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)<sup> 1,2</sup>
  <br/>
  <sup>1 </sup>Imperial College London, UK
  <br/>
@@ -57,10 +57,17 @@ If you find this work is useful for your research, please cite our [paper](https
 <br/>
 
 ## Public release Tongue dataset
+The tongue DB can now be obtained and used by researchers who wish to perform non-comercial research. Our point cloud database, contains approximately 1,800 raw 3D tongue scans. The subjects were instructed to perform a range of tongue expressions (i.e., tongue out left and right, tongue out center, tongue out center round, tongue out center extreme open mouth, tongue inside left and right, etc.). We recorded a total of 700 distinct subjects with available metadata about them, including their age, gender and race.
 
 <p align="center"><img width="60%" src="figures/raw_point_cloud_dataset_2.png" /></p>
 
-TBA
+The TongueDB has been freely available for research and education purposes. To obtain access to the dataset, you need to complete and sign the user agreement form (can be found in this repository, user_agreement.pdf). This agreement should be completed by a full-time academic staff member (not a student). The form should be signed, and emailed to Stylianos Ploumpis (s.ploumpis@imperial.ac.uk), Stylianos Moschoglou (s.moschoglou@imperial.ac.uk). We will verify your request and contact you on how to download the model package. Note that the agreement requires that:
+
+1. The dataset must be used for non-commercial research and education purposes only.
+2. You agree not copy, sell, trade, or exploit the dataset for any commercial purposes.
+3. In any published research using the models, you cite the following paper:
+
+
 
 <br/>
 
