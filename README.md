@@ -46,16 +46,6 @@ TongueGAN architecture. Symbol c stands for row-wise concatenation along the cha
 
 <br/>
 
-## Citation
-If you find this work is useful for your research, please cite our [paper](https://arxiv.org/pdf/2106.12302.pdf):
-
-```
-
-
-```
-
-<br/>
-
 ## Public release Tongue dataset
 The tongue DB can now be obtained and used by researchers who wish to perform non-comercial research. Our point cloud database, contains approximately 1,800 raw 3D tongue scans. The subjects were instructed to perform a range of tongue expressions (i.e., tongue out left and right, tongue out center, tongue out center round, tongue out center extreme open mouth, tongue inside left and right, etc.). We recorded a total of 700 distinct subjects with available metadata about them, including their age, gender and race.
 
@@ -67,7 +57,15 @@ The TongueDB has been freely available for research and education purposes. To o
 2. You agree not copy, sell, trade, or exploit the dataset for any commercial purposes.
 3. In any published research using the models, you cite the following paper:
 
+## Citation
+If you find this work is useful for your research, please cite our [paper](https://arxiv.org/pdf/2106.12302.pdf):
 
+```
+
+
+```
+
+<br/>
 
 <br/>
 
