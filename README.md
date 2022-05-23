@@ -51,7 +51,7 @@ The tongue DB can now be obtained and used by researchers who wish to perform no
 
 <p align="center"><img width="60%" src="figures/raw_point_cloud_dataset_2.png" /></p>
 
-The TongueDB has been freely available for research and education purposes. To obtain access to the dataset, you need to complete and sign the user agreement form (can be found in this repository, user_agreement.pdf). This agreement should be completed by a full-time academic staff member (not a student). The form should be signed, and emailed to Stylianos Ploumpis (s.ploumpis@imperial.ac.uk), Stylianos Moschoglou (s.moschoglou@imperial.ac.uk). We will verify your request and contact you on how to download the dataset. Note that the agreement requires that:
+The TongueDB has been freely available for research and education purposes. To obtain access to the dataset, you need to complete and sign the user agreement form (can be found in this repository, user_agreement.pdf). This agreement should be completed by a full-time academic staff member (not a student). The form should be signed, and emailed to Stylianos Ploumpis (s.ploumpis@google.com), Stylianos Moschoglou (s.moschoglou@imperial.ac.uk). We will verify your request and contact you on how to download the dataset. Note that the agreement requires that:
 
 1. The dataset must be used for non-commercial research and education purposes only.
 2. You agree not copy, sell, trade, or exploit the dataset for any commercial purposes.
