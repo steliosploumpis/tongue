@@ -61,11 +61,12 @@ The TongueDB has been freely available for research and education purposes. To o
 If you find this work is useful for your research, please cite our [paper](https://arxiv.org/pdf/2106.12302.pdf):
 
 ```
-@article{ploumpis20213d,
+@inproceedings{ploumpis20223d,
   title={3D human tongue reconstruction from single" in-the-wild" images},
   author={Ploumpis, Stylianos and Moschoglou, Stylianos and Triantafyllou, Vasileios and Zafeiriou, Stefanos},
-  journal={arXiv preprint arXiv:2106.12302},
-  year={2021}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2771--2780},
+  year={2022}
 }
 ```
 
