@@ -1,5 +1,5 @@
-## [3D human tongue reconstruction from single ''in-the-wild'' images](https://arxiv.org/abs/2106.12302)
-[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/2106.12302)
+## [3D human tongue reconstruction from single ''in-the-wild'' images](https://openaccess.thecvf.com/content/CVPR2022/papers/Ploumpis_3D_Human_Tongue_Reconstruction_From_Single_In-the-Wild_Images_CVPR_2022_paper.pdf)
+[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://openaccess.thecvf.com/content/CVPR2022/papers/Ploumpis_3D_Human_Tongue_Reconstruction_From_Single_In-the-Wild_Images_CVPR_2022_paper.pdf)
 
 [Stylianos Ploumpis](https://www.ploumpis.com)<sup> 1,2 * </sup>, [Stylianos Moschoglou](https://www.doc.ic.ac.uk/~sm3515/)<sup> 1,2 * </sup>, Vasileios Triantafyllou <sup> 2</sup>, & [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)<sup> 1,2</sup>
  <br/>
@@ -58,7 +58,7 @@ The TongueDB has been freely available for research and education purposes. To o
 3. In any published research using the models, you cite the following paper:
 
 ## Citation
-If you find this work is useful for your research, please cite our [paper](https://arxiv.org/pdf/2106.12302.pdf):
+If you find this work is useful for your research, please cite our [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ploumpis_3D_Human_Tongue_Reconstruction_From_Single_In-the-Wild_Images_CVPR_2022_paper.pdf):
 
 ```
 @inproceedings{ploumpis20223d,
